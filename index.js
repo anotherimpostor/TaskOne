@@ -12,7 +12,7 @@ app.use(cors({
 
 app.get('/', (req, res) => {
     res.send({
-        'SlackUsername' : '@impostor',
+        'slackusername' : '@impostor',
         'backend' : true,
         'age' : 21,
         'bio'  : 'God abeg oo'
